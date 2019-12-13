@@ -60,7 +60,7 @@ public class BankingControllerTest {
     }
 
     @Test
-    public void shouldGetBalance() throws Exception{
+    public void shouldGetBalance() throws Exception {
 
         mockMvc.perform(
                 get("/creditcard/{cardNumber}", 4410)
@@ -70,7 +70,6 @@ public class BankingControllerTest {
 
 
     }
-
 
     private void setUpClientMock() {
 
